@@ -6,7 +6,7 @@ body {
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: white;
@@ -34,7 +34,7 @@ ul{
 
 .content1{
     display: flex;
-    padding: 40px 100px;
+    padding: 60px 100px;
     background-color: #1F2937;
     color: #F9FAF8;
     align-items: center;
@@ -42,7 +42,9 @@ ul{
     gap : 20px;
     flex-shrink: 1;
 }
-
+.content1 .right{
+    flex-shrink: 2;
+}
 .content1 .left{
     display: flex;
     flex-direction: column;
@@ -75,7 +77,7 @@ button.first {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 100px;
+    padding: 50px 100px;
     gap : 30px;
 }
 
@@ -93,6 +95,7 @@ button.first {
 
 .categorie{
     text-align: center;
+    color: #1F2937;
 }
 
 .categories img{
@@ -108,10 +111,11 @@ button.first {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 100px;
+    padding: 60px 100px;
     background-color: #E5E7EB;
     font-style:  italic;
     color: #1F2937;
+    font-size: 20px;
 }
 
 #quote-teller{
@@ -119,3 +123,36 @@ button.first {
     font-weight: 600;
 }
 
+.content4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 25px;
+    margin: 50px 100px;
+    padding: 40px;
+    gap : 30px;
+    color: #F9FAF8;
+}
+.content4 button{
+    background: #3882F6;
+    border: 1px solid white;
+    color: white;
+}
+
+.content4 .action{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content4 .text{
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
